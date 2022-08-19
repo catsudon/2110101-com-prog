@@ -1,7 +1,5 @@
 inp = input()
 llenn = len(inp)
-
-
 postfix = ['','','','','K','K','K','M','M','M','B','B','B','B','B','B','B']
 post = postfix[llenn]
 
