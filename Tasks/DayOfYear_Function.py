@@ -13,4 +13,4 @@ def main():
     for i in range(1,13):quick_sum[i]=quick_sum[i-1]+day_in_month[i]
 
 main()
-exec(input()) # DON'T remove this line
+exec(input())

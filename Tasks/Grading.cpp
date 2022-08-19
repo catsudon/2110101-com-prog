@@ -8,3 +8,5 @@ int main()
   string grade = "FFFFFDCBAA";
   cout << grade[a/10];
 }
+
+// python กาก

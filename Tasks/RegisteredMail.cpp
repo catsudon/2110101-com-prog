@@ -18,4 +18,4 @@ int main()
   cout << ans;
 }
 
-// pythonภาษากาก
+// pythonกาก

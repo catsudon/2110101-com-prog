@@ -5,14 +5,11 @@ def check(a, powed):
     diff = a-powed
     if(abs(diff) <= pow(10,-10)):
         return True
-
     return False
-
 
 a = float(input())
 ans = 0
 L,U = 0,a
-
 
 while(L <= U):
     mid = (L+U)/2

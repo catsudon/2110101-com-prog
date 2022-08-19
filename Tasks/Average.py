@@ -1,7 +1,6 @@
 sum = 0
 cnt = 0
 while(True):
-
     a = input()
     if(a == "q"):
         break

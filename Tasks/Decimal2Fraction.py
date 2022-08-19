@@ -41,7 +41,7 @@ print("gcd", gcd)
 
 
 print(int(top//gcd), '/', int(bot//gcd))
-# althrough gcd is confirmed to ve divideable
+# althrough gcd is confirmed to be divideable
 # if we use / operator dividing a very large number
 # the result will be in a form like this: 9.841651984980989e+164
 # which is judged as wrong by grader

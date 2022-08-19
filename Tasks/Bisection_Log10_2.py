@@ -2,7 +2,6 @@ def check(a, powed):
     diff = a-powed
     if(abs(diff) <= 0.0000000001):
         return True
-
     return False
 
 

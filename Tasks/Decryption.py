@@ -1,4 +1,4 @@
-msg = "ๆ"+input()
+msg = "🌟"+input()
 a = 0 
 b = 0
 
@@ -9,7 +9,6 @@ for i in range(4,33,7):
 for i in range(8,33,5):
     b*=10
     b+=int(msg[i])
-
 
 c = a + b + 10000
 c = int(((c % 10000) - (c % 10)) / 10)#

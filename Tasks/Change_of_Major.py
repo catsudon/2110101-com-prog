@@ -7,7 +7,6 @@ qualify_1 = condition(comprog1, cal1_1, cal2_1)
 qualify_2 = condition(comprog2, cal1_2, cal2_2)
 
 
-
 if(qualify_1 and not qualify_2):print(id1)
 elif(qualify_2 and not qualify_1):print(id2)
 elif(not qualify_1 and not qualify_2):print("None")
