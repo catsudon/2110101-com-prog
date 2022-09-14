@@ -5,7 +5,7 @@ export default defineConfig({
   lang: "en-US",
   base: "/",
   title: "COMPROG",
-  outDir: "web/.vitepress/dist",
+  outDir: "../dist/",
   description: "",
 
   head: [
