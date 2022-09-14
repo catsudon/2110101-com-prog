@@ -28,8 +28,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v1
+
 
       - uses: actions/setup-node@v3
         with:
@@ -46,10 +45,14 @@ jobs:
       - name: Build the Web
         run: yarn run build
 
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v1
-      #   with:
-      #     path: "dist"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # path: "dist"
+          path: "web"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v1
 
       - name: Deploy to GitHub Pages
         id: deployment
