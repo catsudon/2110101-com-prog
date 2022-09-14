@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,d as p}from"./app.a2f55f3f.js";const A=JSON.parse('{"title":"Task: Grading.cpp","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/Grading.cpp.md"}'),l={name:"tasks/Grading.cpp.md"},o=p("",2),e=[o];function t(c,r,D,F,y,i){return n(),a("div",null,e)}const d=s(l,[["render",t]]);export{A as __pageData,d as default};

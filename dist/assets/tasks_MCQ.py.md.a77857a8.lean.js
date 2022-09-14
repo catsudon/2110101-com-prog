@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,d as p}from"./app.a2f55f3f.js";const i=JSON.parse('{"title":"Task: MCQ.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/MCQ.py.md"}'),l={name:"tasks/MCQ.py.md"},o=p("",2),e=[o];function t(c,r,F,D,y,A){return n(),a("div",null,e)}const _=s(l,[["render",t]]);export{i as __pageData,_ as default};

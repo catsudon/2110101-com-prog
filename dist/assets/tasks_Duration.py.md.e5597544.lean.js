@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,d as p}from"./app.a2f55f3f.js";const i=JSON.parse('{"title":"Task: Duration.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/Duration.py.md"}'),l={name:"tasks/Duration.py.md"},o=p("",2),t=[o];function e(D,F,r,c,y,C){return a(),n("div",null,t)}const d=s(l,[["render",e]]);export{i as __pageData,d as default};

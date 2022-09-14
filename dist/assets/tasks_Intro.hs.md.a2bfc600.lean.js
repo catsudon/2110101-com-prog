@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,d as t}from"./app.a2f55f3f.js";const y=JSON.parse('{"title":"Task: Intro.hs","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/Intro.hs.md"}'),e={name:"tasks/Intro.hs.md"},o=t("",2),l=[o];function p(r,c,i,_,h,d){return n(),a("div",null,l)}const D=s(e,[["render",p]]);export{y as __pageData,D as default};

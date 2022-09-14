@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,d as p}from"./app.a2f55f3f.js";const i=JSON.parse('{"title":"Task: CountWord.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/CountWord.py.md"}'),o={name:"tasks/CountWord.py.md"},l=p("",2),e=[l];function t(r,c,D,F,y,A){return a(),n("div",null,e)}const d=s(o,[["render",t]]);export{i as __pageData,d as default};
