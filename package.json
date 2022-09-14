@@ -10,7 +10,7 @@
     "gen": "ts-node web/.vitepress/generate.ts",
     "build": "vitepress build web",
     "dev": "vitepress dev web",
-    "serve": "vitepress serve web --port 6969"
+    "serve": "vitepress serve web"
   },
   "dependencies": {
     "@types/node": "^18.7.18",
