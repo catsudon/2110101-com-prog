@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,d as p}from"./app.a2f55f3f.js";const i=JSON.parse('{"title":"Task: AbbrevNum.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/AbbrevNum.py.md"}'),l={name:"tasks/AbbrevNum.py.md"},o=p("",2),F=[o];function e(D,t,c,r,y,C){return a(),n("div",null,F)}const m=s(l,[["render",e]]);export{i as __pageData,m as default};

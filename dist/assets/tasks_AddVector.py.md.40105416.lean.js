@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,d as p}from"./app.a2f55f3f.js";const d=JSON.parse('{"title":"Task: AddVector.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/AddVector.py.md"}'),o={name:"tasks/AddVector.py.md"},l=p("",2),t=[l];function e(F,r,c,D,y,A){return n(),a("div",null,t)}const i=s(o,[["render",e]]);export{d as __pageData,i as default};

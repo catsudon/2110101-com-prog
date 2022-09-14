@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,d as o}from"./app.a2f55f3f.js";const u=JSON.parse('{"title":"Task: Arabic_Numerals.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/Arabic_Numerals.py.md"}'),p={name:"tasks/Arabic_Numerals.py.md"},l=o("",2),e=[l];function t(r,c,D,F,y,A){return n(),a("div",null,e)}const i=s(p,[["render",t]]);export{u as __pageData,i as default};
