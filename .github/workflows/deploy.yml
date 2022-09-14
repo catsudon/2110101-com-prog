@@ -46,10 +46,10 @@ jobs:
       - name: Build the Web
         run: yarn run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "dist"
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #   with:
+      #     path: "dist"
 
       - name: Deploy to GitHub Pages
         id: deployment
