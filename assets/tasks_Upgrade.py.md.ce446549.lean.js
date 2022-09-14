@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,d as p}from"./app.7162f395.js";const d=JSON.parse('{"title":"Task: Upgrade.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/Upgrade.py.md"}'),l={name:"tasks/Upgrade.py.md"},o=p("",2),e=[o];function D(r,t,F,c,y,A){return n(),a("div",null,e)}const i=s(l,[["render",D]]);export{d as __pageData,i as default};
