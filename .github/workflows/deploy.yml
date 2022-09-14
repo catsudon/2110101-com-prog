@@ -52,6 +52,9 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
+      - name: setup code pages
+        run: pnpm gen
+
       - name: Build the Web
         run: pnpm build
 
