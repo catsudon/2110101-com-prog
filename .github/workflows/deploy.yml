@@ -6,10 +6,7 @@ on:
       - main
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+permissions: read-all|write-all
 
 concurrency:
   group: "pages"
@@ -41,8 +38,8 @@ jobs:
       - name: install dependencies
         run: yarn install
 
-      - name: generate task pages
-        run: yarn run gen
+      # - name: generate task pages
+      #   run: yarn run gen
 
       - name: Build the Web
         run: yarn run build
@@ -52,8 +49,8 @@ jobs:
         with:
           path: "dist"
 
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          folder: "dist" # The folder the action should deploy.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
