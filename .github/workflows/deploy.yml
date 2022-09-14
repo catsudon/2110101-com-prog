@@ -40,6 +40,8 @@ jobs:
       - name: install dependencies
         run: yarn install
 
+      - name: generate task pages
+        run: yarn run gen
 
       - name: Build the Web
         run: yarn run build
