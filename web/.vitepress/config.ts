@@ -3,6 +3,7 @@ import tasks from "./sidebar";
 
 export default defineConfig({
   lang: "en-US",
+  base: "/web/",
   title: "COMPROG",
   outDir: "web/.vitepress/dist",
   description: "",
