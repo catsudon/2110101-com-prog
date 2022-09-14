@@ -6,51 +6,51 @@ on:
       - main
   workflow_dispatch:
 
-permissions: read-all|write-all
+# permissions: read-all|write-all
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+# concurrency:
+#   group: "pages"
+#   cancel-in-progress: true
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     environment:
+#       name: github-pages
+#       url: ${{ steps.deployment.outputs.page_url }}
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v3
+#         with:
+#           fetch-depth: 0
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v1
+#       - name: Setup Pages
+#         uses: actions/configure-pages@v1
 
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: yarn
-      - run: yarn install --frozen-lockfile
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: 16
+#           cache: yarn
+#       - run: yarn install --frozen-lockfile
 
-      - name: install dependencies
-        run: yarn install
+#       - name: install dependencies
+#         run: yarn install
 
-      # - name: generate task pages
-      #   run: yarn run gen
+#       # - name: generate task pages
+#       #   run: yarn run gen
 
-      - name: Build the Web
-        run: yarn run build
+#       - name: Build the Web
+#         run: yarn run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "dist"
+#       - name: Upload artifact
+#         uses: actions/upload-pages-artifact@v1
+#         with:
+#           path: "dist"
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/.vitepress/dist
+#       - name: Deploy
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           publish_dir: docs/.vitepress/dist
