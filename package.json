@@ -17,6 +17,7 @@
     "@types/promise": "^7.1.30",
     "ts-node": "^10.9.1",
     "tsx": "^3.9.0",
+    "typescript": "^4.8.3",
     "vitepress": "^1.0.0-alpha.13",
     "vue": "^3.2.39"
   }
