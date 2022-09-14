@@ -3,7 +3,7 @@ import tasks from "./sidebar";
 
 export default defineConfig({
   lang: "en-US",
-  base: "/2110101-com-prog",
+  base: "/2110101-com-prog/",
   title: "COMPROG",
   outDir: "../dist/",
   description: "",
