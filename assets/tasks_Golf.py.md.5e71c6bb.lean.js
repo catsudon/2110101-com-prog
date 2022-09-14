@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,d as p}from"./app.7162f395.js";const i=JSON.parse('{"title":"Task: Golf.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/Golf.py.md"}'),l={name:"tasks/Golf.py.md"},o=p("",2),e=[o];function t(r,c,F,D,y,A){return n(),a("div",null,e)}const _=s(l,[["render",t]]);export{i as __pageData,_ as default};

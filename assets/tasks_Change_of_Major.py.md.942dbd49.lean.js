@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,d as l}from"./app.7162f395.js";const i=JSON.parse('{"title":"Task: Change_of_Major.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/Change_of_Major.py.md"}'),p={name:"tasks/Change_of_Major.py.md"},o=l("",2),F=[o];function e(D,c,t,r,y,A){return n(),a("div",null,F)}const _=s(p,[["render",e]]);export{i as __pageData,_ as default};

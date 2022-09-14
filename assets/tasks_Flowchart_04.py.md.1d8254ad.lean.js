@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,d as p}from"./app.7162f395.js";const i=JSON.parse('{"title":"Task: Flowchart_04.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/Flowchart_04.py.md"}'),l={name:"tasks/Flowchart_04.py.md"},o=p("",2),D=[o];function e(t,c,F,r,y,C){return a(),n("div",null,D)}const _=s(l,[["render",e]]);export{i as __pageData,_ as default};

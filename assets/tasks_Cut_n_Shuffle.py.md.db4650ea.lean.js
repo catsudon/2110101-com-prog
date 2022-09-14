@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,d as l}from"./app.7162f395.js";const i=JSON.parse('{"title":"Task: Cut_n_Shuffle.py","description":"","frontmatter":{},"headers":[],"relativePath":"tasks/Cut_n_Shuffle.py.md"}'),p={name:"tasks/Cut_n_Shuffle.py.md"},o=l("",2),e=[o];function c(t,D,F,r,y,A){return a(),n("div",null,e)}const _=s(p,[["render",c]]);export{i as __pageData,_ as default};
