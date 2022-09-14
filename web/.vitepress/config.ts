@@ -5,7 +5,7 @@ export default defineConfig({
   lang: "en-US",
   base: "/2110101-com-prog/",
   title: "COMPROG",
-  outDir: "/dist",
+  outDir: "../dist",
   description: "",
 
   head: [
