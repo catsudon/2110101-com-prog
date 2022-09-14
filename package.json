@@ -1,0 +1,21 @@
+{
+  "name": "2110101-com-prog",
+  "version": "1.0.0",
+  "description": "codes from CU comprog class.",
+  "main": "web/.vitepress/",
+  "repository": "https://github.com/mark48853/2110101-com-prog",
+  "author": "Mark48853 <sathanalao@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "gen": "ts-node web/.vitepress/generate.ts",
+    "build": "vitepress build web",
+    "dev": "vitepress dev web"
+  },
+  "dependencies": {
+    "@types/node": "^18.7.18",
+    "@types/promise": "^7.1.30",
+    "tsx": "^3.9.0",
+    "vitepress": "^1.0.0-alpha.13",
+    "vue": "^3.2.39"
+  }
+}
