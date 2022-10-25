@@ -11,7 +11,7 @@ def check_neighbours(rows, cols, color):
   for i in range(4):
     ax = rows+dx[i]
     ay = cols+dy[i]
-    if(ax > 20 or ax < 0 or ay > 20 or ay < 0): continue
+    if(ax >= 20 or ax < 0 or ay >= 20 or ay < 0): continue
     if(matrix[ax][ay] != 1): continue
     matrix[ax][ay] = color
     print(ax,ay,color)
