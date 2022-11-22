@@ -15,6 +15,7 @@ for Q in range(q):
     if (cmd[0] == 'W'):
         if (cmd[1],cmd[2]) in w: w[cmd[1],cmd[2]] += [Q]
         else: w[cmd[1],cmd[2]] = [Q]
+        
 ans = {}
 for key, val in b.items():
     l = sorted(val)

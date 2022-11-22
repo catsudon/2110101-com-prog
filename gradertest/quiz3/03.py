@@ -16,7 +16,6 @@ while(True):
     cmd, l = a[0],a[1:]
     
     if(cmd == 'Ally'):
-        # find one country that already has an ally
         anc = l[0]
         for country in l:
             country_to_ancestor[disjoint_set(country)] = disjoint_set(anc)
@@ -41,19 +40,10 @@ while(True):
             left = l[i-1]
             right = l[(i+1)%len(l)]
             
-            
-            
             if(disjoint_set(main) in enemy and disjoint_set(left) in enemy[disjoint_set(main)]):
                 ok = False
             if(disjoint_set(main) in enemy and disjoint_set(right) in enemy[disjoint_set(main)]):
                 ok= False
-
-            
-            # print("main: ",main)
-            # if(disjoint_set(main) in enemy):
-            #     print()
-            # print("L: ",left, disjoint_set(left))
-            # print("R: ",right, disjoint_set(right))
             
         if(ok):print("Okay")
         else:print("No")
